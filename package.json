@@ -1,0 +1,26 @@
+{
+  "name": "express-http-https",
+  "version": "1.0.0",
+  "description": "Contoh server Express dengan HTTP dan HTTPS",
+  "main": "express.js",
+  "scripts": {
+    "start": "node express.js",
+    "start:https": "node httpsexpress.js",
+    "dev": "node --watch express.js",
+    "dev:https": "node --watch httpsexpress.js"
+  },
+  "keywords": [
+    "express",
+    "https",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "type": "commonjs"
+}
